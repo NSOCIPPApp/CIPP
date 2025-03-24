@@ -99,6 +99,10 @@
       "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
+      "route": "/getversion",
+      "allowedRoles": ["anonymous"]
+    },
+    {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
